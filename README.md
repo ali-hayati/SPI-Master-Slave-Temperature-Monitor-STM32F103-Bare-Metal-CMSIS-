@@ -1,7 +1,7 @@
 # SPI Master–Slave Temperature Monitor (STM32F103 / Bare-Metal CMSIS)
 
 An educational project demonstrating **SPI communication between two STM32F103 microcontrollers** (Blue Pill family), implemented entirely without the HAL layer. All peripheral registers (SPI, USART, ADC, GPIO) are accessed directly through the CMSIS header (`stm32f103xb.h`) so the real behavior of each peripheral is fully visible and traceable.
-
+![SPI Project](gif/20260814_124509.gif)
 ## 1. System Overview
 
 ```
